@@ -8,24 +8,27 @@
 </head>
 <body>
   <div class="container">
-    <h2>Sign Up</h2>
-    <form id="signup-form" action="signup.php" method="POST">
-      <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-      </div>
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-group">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-      </div>
-      <div class="form-actions">
-        <button type="submit" class="btn">Sign Up</button>
-      </div>
-    </form>
+    <div class="left-panel"></div>
+    <div class="form-container">
+      <h2>Sign Up</h2>
+      <form id="signup-form" method="POST">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn">Sign Up</button>
+        </div>
+      </form>
+    </div>
   </div>
 </body>
 </html>
