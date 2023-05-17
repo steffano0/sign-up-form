@@ -12,31 +12,35 @@
       <img src="images/panel.jpg" alt="image">
     </div>
     <div class="form-container">
-      <h2>Let's do this!</h2>
+      <h1>Let's do this!</h1>
       <form id="signup-form" method="POST">
-        <div class="form-group">
-          <input type="text" id="first-name" name="first-name" required>
-          <label for="first-name">FIRST NAME</label>
-        </div>
-        <div class="form-group">
-          <input type="text" id="last-name" name="last-name" required>
-          <label for="last-name ">LAST NAME</label>
+        <div class="names">
+          <div class="form-group">
+            <input type="text" id="first-name" name="first-name" required>
+            <label for="first-name">First Name</label>
+          </div>
+          <div class="form-group">
+            <input type="text" id="last-name" name="last-name" required>
+            <label for="last-name ">Last Name</label>
+          </div>
         </div>
         <div class="form-group">
           <input type="email" id="email" name="email" required>
-          <label for="email">EMAIL</label>
+          <label for="email">Email</label>
         </div>
         <div class="form-group">
           <input type="tel" id="phone" name="phone" required>
-          <label for="phone">PHONE NUMBER</label>
+          <label for="phone">Phone Number</label>
         </div>
-        <div class="form-group">
-          <input type="password" id="password" name="password" required>
-          <label for="password">PASSWORD</label>
-        </div>
-        <div class="form-group">
-          <input type="password" id="conf-password" name="conf-password" required>
-          <label for="conf-password">CONFIRM PASSWORD</label>
+        <div class="passwords">
+          <div class="form-group">
+            <input type="password" id="password" name="password" required>
+            <label for="password">Password</label>
+          </div>
+          <div class="form-group">
+            <input type="password" id="conf-password" name="conf-password" required>
+            <label for="conf-password">Confirm Password</label>
+          </div>
         </div>
         <div class="form-actions">
           <button type="submit" class="btn">Create Account</button>
