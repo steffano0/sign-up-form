@@ -42,7 +42,40 @@ body {
     width: 31rem;
     height: 40rem;
     border-radius: 10px 0 0 10px ;
+    opacity: 0.7;
   }
+
+  .left-panel {
+    position: relative;
+    text-align: center;
+  }
+
+  .logo {
+    filter: brightness(0) invert(1);
+    width: 7rem;
+    height: 7rem;
+    display: block;
+    opacity: 1;
+    
+  }
+   
+  .text {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #fff;
+  }
+    
+
+  .logotype {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
 
   h2 {
     text-align: center;
